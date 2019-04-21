@@ -1,0 +1,13 @@
+#设置哪些文件该过滤
+ 
+target/   #表示过滤这个文件夹
+.idea/   #表示过滤这个文件夹
+*.zip   #过滤zip后缀文件
+input/raw/trackinfo_20130721.data   #过滤该文件
+ip/qqwry.dat   #过滤该文件
+input/etl/part-r-00000
+ 
+#反向操作，设置哪些文件不该过滤
+!src/   跟踪该文件夹
+!*.js   跟踪java源文件
+!index.html 跟踪该文件
