@@ -15,7 +15,8 @@ import java.net.URISyntaxException;
 
 /**
  * 词频统计driver ，配置mr的相关属性
- * 添加combiner  求和的时候，combiner是没有问题的，但是如果是求平均数之类的做除法运算的时候，combiner回导致结果的不准确
+ * 添加combiner  求和的时候，combiner是没有问题的，
+ * 但是如果是求平均数之类的做除法运算的时候，combiner回导致结果的不准确
  * 在本地文件系统测试
  */
 public class WordCountCombinerLocalApp {

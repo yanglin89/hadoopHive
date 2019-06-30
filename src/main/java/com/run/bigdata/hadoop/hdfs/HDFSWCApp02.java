@@ -22,6 +22,9 @@ public class HDFSWCApp02 {
 
     public static void main(String[] args) throws Exception{
 
+        /**
+         * 使用配置文件完成hdfs相关属性配置的获取
+         */
         Properties properties = ParamsUtil.getProperties();
         Path input = new Path(properties.getProperty(Constants.INPUT_PATH));
 
